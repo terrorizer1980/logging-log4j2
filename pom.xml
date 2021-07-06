@@ -236,7 +236,7 @@
     <maven.doap.skip>false</maven.doap.skip>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <docLabel>Site Documentation</docLabel>
-    <projectDir />
+    <projectDir/>
     <commonsLoggingVersion>1.2</commonsLoggingVersion>
     <javax.persistence>2.2.1</javax.persistence>
     <osgi.api.version>1.10.0</osgi.api.version>
@@ -246,11 +246,11 @@
     <jctoolsVersion>3.3.0</jctoolsVersion>
     <junitVersion>4.13.1</junitVersion>
     <junitJupiterVersion>5.7.0</junitJupiterVersion>
-    <mockitoVersion>3.9.0</mockitoVersion>
+    <mockitoVersion>3.11.1</mockitoVersion>
     <byteBuddyVersion>1.11.0</byteBuddyVersion>
     <argLine>-Xms256m -Xmx1024m</argLine>
     <javaTargetVersion>11</javaTargetVersion>
-    <module.name />
+    <module.name/>
   </properties>
   <pluginRepositories>
     <pluginRepository>
@@ -1085,7 +1085,7 @@
             </compilerArgs>
             <compilerArguments>
               <Xmaxwarns>10000</Xmaxwarns>
-              <Xlint />
+              <Xlint/>
             </compilerArguments>
             <annotationProcessorPaths>
               <path>
@@ -1371,7 +1371,7 @@
             </goals>
             <configuration>
               <skip>true</skip>
-              <resourceBundles />
+              <resourceBundles/>
             </configuration>
           </execution>
         </executions>
